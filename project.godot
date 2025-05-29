@@ -11,10 +11,26 @@ config_version=5
 [application]
 
 config/name="Loosethreads"
-run/main_scene="res://scenes/ui.tscn"
+run/main_scene="res://scenes/master.tscn"
 config/features=PackedStringArray("4.3", "Mobile")
 run/low_processor_mode=true
 config/icon="res://writing-notes-and-pencil-22371.svg"
+
+[autoload]
+
+ImageManager="*res://globals/image_manager.gd"
+SignalHub="*res://globals/signal_hub.gd"
+SoundManager="*res://globals/sound_manager.gd"
+
+[display]
+
+window/size/viewport_width=1024
+window/size/viewport_height=768
+window/stretch/mode="canvas_items"
+
+[editor]
+
+naming/script_name_casing=2
 
 [rendering]
 
