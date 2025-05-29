@@ -1,0 +1,3 @@
+loosethreads is a personal project made in Godot using GDScript. It will be a project management task tracker. The hope is to make loosethreads better than the common to-do list, but still function well for people who struggle with organization or with completing tasks in a timely manner.
+
+Godot is normally used as a game engine, but I plan to explore its control nodes to create the UI experience for this app.
