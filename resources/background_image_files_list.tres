@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="ImageFilesListResource" load_steps=2 format=3 uid="uid://cc8onwxu55028"]
+
+[ext_resource type="Script" path="res://classes/image_files_list_resouces.gd" id="1_5l33e"]
+
+[resource]
+script = ExtResource("1_5l33e")
+file_names = Array[String](["res://assets/backgrounds/black.png", "res://assets/backgrounds/blue.png", "res://assets/backgrounds/dark_purple.png", "res://assets/backgrounds/purple.png"])
